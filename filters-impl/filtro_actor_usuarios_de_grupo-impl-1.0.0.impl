@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>filtro_actor_usuarios_de_grupo-impl</implementationId>
+  <implementationVersion>1.0.0</implementationVersion>
+  <definitionId>filtro_actor_usuarios_de_grupo</definitionId>
+  <definitionVersion>1.0.0</definitionVersion>
+  <implementationClassname>es.us.connector.Filtro_actor_usuarios_de_grupoImpl</implementationClassname>
+  <description>Recibe el id del grupo al que deben pertenecer los usuarios para ser receptores de una tarea.</description>
+  <jarDependencies/>
+</implementation:connectorImplementation>

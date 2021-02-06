@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+  <id>filtro_actor_usuarios_de_grupo</id>
+  <version>1.0.0</version>
+  <category icon="organization.png" id="organization"/>
+  <input mandatory="true" name="id_grupo" type="java.lang.Long"/>
+  <page id="Group_id">
+    <widget xsi:type="definition:Text" id="group_id" inputName="id_grupo"/>
+  </page>
+</definition:ConnectorDefinition>

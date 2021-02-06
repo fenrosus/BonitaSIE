@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="US" description="Universidad de Sevilla.">
+  <customUserInfoDefinitions>
+    <customUserInfoDefinition>
+      <name>id</name>
+      <description>DNI o NIE</description>
+    </customUserInfoDefinition>
+  </customUserInfoDefinitions>
+  <users>
+    <user userName="directorLSI">
+      <firstName>director</firstName>
+      <lastName>lsi</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>00000000D</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="secretarioLSI">
+      <firstName>secretario</firstName>
+      <lastName>lsi</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>00000000S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="profesor1sie">
+      <firstName>profesor1</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>01111111S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="profesor2sie">
+      <firstName>profesor2</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>02222222S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno1sie">
+      <firstName>alumno1</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>11111111S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno2sie">
+      <firstName>alumno2</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>22222222S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno3sie">
+      <firstName>alumno3</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>33333333S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno4sie">
+      <firstName>alumno4</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>44444444S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno5sie">
+      <firstName>alumno5</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>55555555S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno6sie">
+      <firstName>alumno6</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>66666666S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno7sie">
+      <firstName>alumno7</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>77777777S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno8sie">
+      <firstName>alumno8</firstName>
+      <lastName>sie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>88888888S</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="profesor1ie">
+      <firstName>profesor1</firstName>
+      <lastName>ie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>01111111I</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno1ie">
+      <firstName>alumno1</firstName>
+      <lastName>ie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>11111111I</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno2ie">
+      <firstName>alumno2</firstName>
+      <lastName>ie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>22222222I</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno3ie">
+      <firstName>alumno3</firstName>
+      <lastName>ie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>33333333I</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+    <user userName="alumno4ie">
+      <firstName>alumno4</firstName>
+      <lastName>ie</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>id</name>
+          <value>44444444I</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
+    </user>
+  </users>
+  <roles>
+    <role name="alumno">
+      <displayName>alumno</displayName>
+      <description>Alumno</description>
+    </role>
+    <role name="profesor">
+      <displayName>profesor</displayName>
+      <description>Profesor</description>
+    </role>
+    <role name="coordinador">
+      <displayName>coordinador</displayName>
+      <description>Coordinador</description>
+    </role>
+    <role name="director">
+      <displayName>director</displayName>
+      <description>Director</description>
+    </role>
+    <role name="delegado">
+      <displayName>delegado</displayName>
+      <description>Delegado</description>
+    </role>
+    <role name="tecnico">
+      <displayName>técnico</displayName>
+      <description>Técnico</description>
+    </role>
+    <role name="secretario">
+      <displayName>secretario</displayName>
+      <description>Secretario</description>
+    </role>
+  </roles>
+  <groups>
+    <group name="LSI">
+      <displayName>LSI</displayName>
+      <description>Lenguajes y Sistemas Informáticos</description>
+    </group>
+    <group name="SIE" parentPath="/LSI">
+      <displayName>SIE</displayName>
+      <description>Sistemas de Información Empresariales</description>
+    </group>
+    <group name="IE" parentPath="/LSI">
+      <displayName>IE</displayName>
+      <description>Inteligencia Empresarial</description>
+    </group>
+    <group name="TEO" parentPath="/LSI/SIE">
+      <displayName>TEO</displayName>
+      <description>Teoría</description>
+    </group>
+    <group name="LAB" parentPath="/LSI/SIE">
+      <displayName>LAB</displayName>
+      <description>Laboratorio</description>
+    </group>
+    <group name="TEO" parentPath="/LSI/IE">
+      <displayName>TEO</displayName>
+      <description>Teoría</description>
+    </group>
+    <group name="LAB" parentPath="/LSI/IE">
+      <displayName>LAB</displayName>
+      <description>Laboratorio</description>
+    </group>
+    <group name="T1" parentPath="/LSI/SIE/TEO">
+      <displayName>T1</displayName>
+      <description>Teoría 1</description>
+    </group>
+    <group name="T2" parentPath="/LSI/SIE/TEO">
+      <displayName>T2</displayName>
+      <description>Teoría 2</description>
+    </group>
+    <group name="L1A" parentPath="/LSI/SIE/LAB">
+      <displayName>L1A</displayName>
+      <description>Laboratorio 1A</description>
+    </group>
+    <group name="L1B" parentPath="/LSI/SIE/LAB">
+      <displayName>L1B</displayName>
+      <description>Laboratorio 1B</description>
+    </group>
+    <group name="L2A" parentPath="/LSI/SIE/LAB">
+      <displayName>L2A</displayName>
+      <description>Laboratorio 2A</description>
+    </group>
+    <group name="L2B" parentPath="/LSI/SIE/LAB">
+      <displayName>L2B</displayName>
+      <description>Laboratorio 2B</description>
+    </group>
+    <group name="T1" parentPath="/LSI/IE/TEO">
+      <displayName>T1</displayName>
+      <description>Teoría 1</description>
+    </group>
+    <group name="L1A" parentPath="/LSI/IE/LAB">
+      <displayName>L1A</displayName>
+      <description>Teoría 2</description>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>profesor1sie</userName>
+      <roleName>coordinador</roleName>
+      <groupName>SIE</groupName>
+      <groupParentPath>/LSI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>SIE</groupName>
+      <groupParentPath>/LSI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>L1B</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor2sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>SIE</groupName>
+      <groupParentPath>/LSI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor2sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>T2</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor2sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>L2A</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor2sie</userName>
+      <roleName>profesor</roleName>
+      <groupName>L2B</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1ie</userName>
+      <roleName>coordinador</roleName>
+      <groupName>IE</groupName>
+      <groupParentPath>/LSI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1ie</userName>
+      <roleName>profesor</roleName>
+      <groupName>IE</groupName>
+      <groupParentPath>/LSI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1ie</userName>
+      <roleName>profesor</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/IE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>profesor1ie</userName>
+      <roleName>profesor</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/IE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno1sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno2sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno3sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno4sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno1sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno2sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno3sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1B</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno4sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1B</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno5sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T2</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno6sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T2</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno7sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T2</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno8sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T2</groupName>
+      <groupParentPath>/LSI/SIE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno5sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L2A</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno6sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L2A</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno7sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L2B</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno8sie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L2B</groupName>
+      <groupParentPath>/LSI/SIE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno1ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/IE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno1ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/IE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno2ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/IE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno3ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/IE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno4ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>T1</groupName>
+      <groupParentPath>/LSI/IE/TEO</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno1ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/IE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno2ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/IE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno3ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/IE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alumno4ie</userName>
+      <roleName>alumno</roleName>
+      <groupName>L1A</groupName>
+      <groupParentPath>/LSI/IE/LAB</groupParentPath>
+    </membership>
+    <membership>
+      <userName>directorLSI</userName>
+      <roleName>director</roleName>
+      <groupName>LSI</groupName>
+    </membership>
+    <membership>
+      <userName>secretarioLSI</userName>
+      <roleName>secretario</roleName>
+      <groupName>LSI</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
