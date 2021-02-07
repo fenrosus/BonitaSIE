@@ -1,0 +1,688 @@
+{
+  "modelVersion" : "2.0",
+  "id" : "AppCambioGrupo",
+  "name" : "AppCambioGrupo",
+  "lastUpdate" : 1612719155707,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "41b9286e-b9f4-4e31-add1-f79ecd9494a5",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Mis cambios de grupo"
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 2"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "55b8a403-39d8-4c3a-ae0e-593b948de565",
+              "hasValidationError" : false,
+              "id" : "pbTitle"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Default label"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "<strong>DEBUG:</strong>\n<br><br>\n{{usuario}}\n<br><br>\n{{solicitudes}}\n<br><br>\n{{agrupar_estados}}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                }
+              },
+              "reference" : "ffc59406-292f-4947-98ac-2df6ea404caf",
+              "hasValidationError" : false,
+              "id" : "pbText"
+            }
+          ],
+          [
+            {
+              "type" : "tabsContainer",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "vertical" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "tabs"
+                }
+              },
+              "reference" : "86587bd9-f149-49fb-9750-e18a79c053f1",
+              "hasValidationError" : false,
+              "id" : "pbTabsContainer",
+              "tabList" : [
+                {
+                  "type" : "tabContainer",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 12
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "title" : {
+                      "type" : "interpolation",
+                      "value" : "Solicitudes enviadas"
+                    }
+                  },
+                  "reference" : "e399d9c7-53a7-4a7e-a65f-c2807c695b61",
+                  "hasValidationError" : false,
+                  "id" : "pbTabContainer",
+                  "container" : {
+                    "type" : "container",
+                    "dimension" : {
+                      "xs" : 12
+                    },
+                    "propertyValues" : { },
+                    "reference" : "2277fbb0-34b1-4114-ac3d-deed5eca01fb",
+                    "hasValidationError" : false,
+                    "id" : "pbContainer",
+                    "rows" : [
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "headers" : {
+                              "type" : "constant",
+                              "value" : [
+                                "Origen",
+                                "Destino",
+                                "Date"
+                              ]
+                            },
+                            "type" : {
+                              "type" : "constant",
+                              "value" : "Bonita API"
+                            },
+                            "apiUrl" : {
+                              "type" : "expression",
+                              "value" : "queryMisSolicitudes"
+                            },
+                            "params" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "content" : {
+                              "type" : "expression",
+                              "value" : "solicitudes"
+                            },
+                            "columnsKey" : {
+                              "type" : "constant",
+                              "value" : [
+                                "grupo_origen",
+                                "grupo_destino",
+                                "fecha_registro | uiDate"
+                              ]
+                            },
+                            "sortColumns" : {
+                              "type" : "constant"
+                            },
+                            "selectedRow" : {
+                              "type" : "variable",
+                              "value" : ""
+                            },
+                            "pageSize" : {
+                              "type" : "constant",
+                              "value" : 5
+                            },
+                            "filter" : {
+                              "type" : "constant"
+                            },
+                            "striped" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "condensed" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "bordered" : {
+                              "type" : "constant",
+                              "value" : true
+                            }
+                          },
+                          "reference" : "f96d3d81-c689-47f5-a57a-20a90df8a4a9",
+                          "hasValidationError" : false,
+                          "id" : "pbDataTable"
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 6,
+                            "lg" : 6
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "type" : {
+                              "type" : "constant",
+                              "value" : "Doughnut"
+                            },
+                            "data" : {
+                              "type" : "expression",
+                              "value" : "agrupar_estados"
+                            },
+                            "labels" : {
+                              "type" : "constant",
+                              "value" : [
+                                "nuevas",
+                                "aceptadas",
+                                "rechazadas",
+                                "concedidas",
+                                "asignadas"
+                              ]
+                            },
+                            "setLabels" : {
+                              "type" : "constant",
+                              "value" : [
+                                "Default set label"
+                              ]
+                            },
+                            "legendHidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "colors" : {
+                              "type" : "constant"
+                            },
+                            "options" : {
+                              "type" : "constant"
+                            }
+                          },
+                          "reference" : "1e72d8f7-9228-44ab-b734-36d469cbf7e5",
+                          "hasValidationError" : false,
+                          "id" : "pbChart"
+                        },
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 6,
+                            "lg" : 6
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "type" : {
+                              "type" : "constant",
+                              "value" : "PolarArea"
+                            },
+                            "data" : {
+                              "type" : "expression",
+                              "value" : "agrupar_estados"
+                            },
+                            "labels" : {
+                              "type" : "constant",
+                              "value" : [
+                                "nuevas",
+                                "aceptadas",
+                                "rechazadas",
+                                "concedidas",
+                                "asignadas"
+                              ]
+                            },
+                            "setLabels" : {
+                              "type" : "constant",
+                              "value" : [
+                                "Default set label"
+                              ]
+                            },
+                            "legendHidden" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "colors" : {
+                              "type" : "constant"
+                            },
+                            "options" : {
+                              "type" : "constant"
+                            }
+                          },
+                          "reference" : "203993b1-b61f-4bae-92a5-0740aa5726b9",
+                          "hasValidationError" : false,
+                          "id" : "pbChart"
+                        }
+                      ],
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "text" : {
+                              "type" : "interpolation",
+                              "value" : "Nueva solicitud de cambio de grupo"
+                            },
+                            "type" : {
+                              "type" : "constant",
+                              "value" : "process"
+                            },
+                            "targetUrl" : {
+                              "type" : "constant",
+                              "value" : "http://"
+                            },
+                            "pageToken" : {
+                              "type" : "constant"
+                            },
+                            "processName" : {
+                              "type" : "constant",
+                              "value" : "Cambio de Grupo"
+                            },
+                            "processVersion" : {
+                              "type" : "constant",
+                              "value" : "1.0"
+                            },
+                            "taskId" : {
+                              "type" : "constant"
+                            },
+                            "caseId" : {
+                              "type" : "constant"
+                            },
+                            "target" : {
+                              "type" : "constant",
+                              "value" : "_blank"
+                            },
+                            "appToken" : {
+                              "type" : "constant"
+                            },
+                            "urlParams" : {
+                              "type" : "constant"
+                            },
+                            "alignment" : {
+                              "type" : "constant",
+                              "value" : "center"
+                            },
+                            "buttonStyle" : {
+                              "type" : "constant",
+                              "value" : "primary"
+                            }
+                          },
+                          "reference" : "12618c59-8242-4052-b3bf-f897f7098097",
+                          "hasValidationError" : false,
+                          "id" : "pbLink"
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type" : "tabContainer",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 12
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "title" : {
+                      "type" : "interpolation",
+                      "value" : "Solicitudes respondidas"
+                    }
+                  },
+                  "reference" : "f22783c3-5079-4f93-be48-f67e9ef2865b",
+                  "hasValidationError" : false,
+                  "id" : "pbTabContainer",
+                  "container" : {
+                    "type" : "container",
+                    "dimension" : {
+                      "xs" : 12
+                    },
+                    "propertyValues" : { },
+                    "reference" : "eb014018-06fa-445c-b629-221ebbd30835",
+                    "hasValidationError" : false,
+                    "id" : "pbContainer",
+                    "rows" : [
+                      [
+                        {
+                          "type" : "component",
+                          "dimension" : {
+                            "xs" : 12,
+                            "sm" : 12,
+                            "md" : 12,
+                            "lg" : 12
+                          },
+                          "propertyValues" : {
+                            "cssClasses" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "hidden" : {
+                              "type" : "constant",
+                              "value" : false
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "headers" : {
+                              "type" : "constant",
+                              "value" : [
+                                "Origen",
+                                "Destino",
+                                "Date"
+                              ]
+                            },
+                            "type" : {
+                              "type" : "constant",
+                              "value" : "Bonita API"
+                            },
+                            "apiUrl" : {
+                              "type" : "expression",
+                              "value" : "queryMisRespuestas"
+                            },
+                            "params" : {
+                              "type" : "constant",
+                              "value" : ""
+                            },
+                            "content" : {
+                              "type" : "constant"
+                            },
+                            "columnsKey" : {
+                              "type" : "constant",
+                              "value" : [
+                                "grupo_origen",
+                                "grupo_destino",
+                                "fecha_registro | uiDate"
+                              ]
+                            },
+                            "sortColumns" : {
+                              "type" : "constant"
+                            },
+                            "selectedRow" : {
+                              "type" : "variable",
+                              "value" : ""
+                            },
+                            "pageSize" : {
+                              "type" : "constant",
+                              "value" : 5
+                            },
+                            "filter" : {
+                              "type" : "constant"
+                            },
+                            "striped" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "condensed" : {
+                              "type" : "constant",
+                              "value" : true
+                            },
+                            "bordered" : {
+                              "type" : "constant",
+                              "value" : true
+                            }
+                          },
+                          "reference" : "2ced908d-4978-491e-82f4-ed8907de4746",
+                          "hasValidationError" : false,
+                          "id" : "pbDataTable"
+                        }
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "f6b3c64c-36a0-4f4e-9ca5-f0a6951a45a1",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "ebad64ef-51da-43d7-a27b-07930c7a579c",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "usuario" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/1"
+      ],
+      "exposed" : false
+    },
+    "solicitudes" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findBySolicitante [es.us.model.CambioGrupo]\",\"businessObjectName\":\"undefined\",\"query\":{\"name\":\"findBySolicitante\",\"displayName\":\"findBySolicitante\"},\"id\":\"es.us.model.CambioGrupo\",\"filters\":[{\"name\":\"solicitante\",\"type\":\"STRING\",\"collection\":false,\"value\":\"{{usuario.user_name}}\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "queryMisSolicitudes" : {
+      "type" : "expression",
+      "value" : [
+        "return \"../API/bdm/businessData/es.us.model.CambioGrupo?q=findBySolicitante&f=solicitante=\"+$data.usuario.user_name;//+\"&p=0&c=99\";"
+      ],
+      "exposed" : false
+    },
+    "queryMisRespuestas" : {
+      "type" : "expression",
+      "value" : [
+        "return \"../API/bdm/businessData/es.us.model.CambioGrupo?q=findByUsuario_cambio&f=usuario_cambio=\"+$data.usuario.user_name;"
+      ],
+      "exposed" : false
+    },
+    "respuestas" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByUsuario_cambio [es.us.model.CambioGrupo]\",\"businessObjectName\":\"CambioGrupo\",\"query\":{\"name\":\"findByUsuario_cambio\",\"displayName\":\"findByUsuario_cambio\"},\"id\":\"es.us.model.CambioGrupo\",\"filters\":[{\"name\":\"usuario_cambio\",\"type\":\"STRING\",\"collection\":false,\"value\":\"{{usuario.user_name}}\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "agrupar_estados" : {
+      "type" : "expression",
+      "value" : [
+        "var result = [];",
+        "",
+        "var nuevas = 0;",
+        "var aceptadas = 0;",
+        "var rechazadas = 0;",
+        "var concedidas = 0;",
+        "var asignadas = 0;",
+        "",
+        "for (var i in $data.solicitudes){",
+        "    var item = $data.solicitudes[i];",
+        "    if (item.estado==\"NUEVA\") {nuevas++;}",
+        "    else if (item.estado==\"ACEPTADA\") {aceptadas++;}",
+        "    else if (item.estado==\"RECHAZADA\") {rechazadas++;}",
+        "    else if (item.estado==\"CONCEDIDA\") {concedidas++;}",
+        "    else if (item.estado==\"ASIGNADA\") {asignadas++;}",
+        "}",
+        "",
+        "result.push(nuevas);",
+        "result.push(aceptadas);",
+        "result.push(rechazadas);",
+        "result.push(concedidas);",
+        "result.push(asignadas);",
+        "",
+        "return result;"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "05496a4a-5ed4-46b5-868a-452bc52e4abf",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}

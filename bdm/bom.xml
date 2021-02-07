@@ -12,7 +12,32 @@
                 <field type="OFFSETDATETIME" length="255" name="fecha_registro" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
-            <queries/>
+            <queries>
+                <query name="findBySolicitanteSort" content="SELECT c &#13;&#10;FROM CambioGrupo c &#13;&#10;WHERE c.solicitante = :solicitante&#13;&#10;ORDER BY c.fecha_registro DESC" returnType="es.us.model.CambioGrupo">
+                    <description>Versión de findBySolicitante pero con orden por fecha descendente</description>
+                    <queryParameters>
+                        <queryParameter name="solicitante" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+                <query name="findByUsuario_cambioSort" content="SELECT c &#13;&#10;FROM CambioGrupo c &#13;&#10;WHERE c.usuario_cambio = :usuario_cambio&#13;&#10;ORDER BY fecha_registro DESC" returnType="es.us.model.CambioGrupo">
+                    <description>Versión de findByUsuario_cambio pero con orden por fecha descendente</description>
+                    <queryParameters>
+                        <queryParameter name="usuario_cambio" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+                <query name="countForFindBySolicitanteSort" content="SELECT COUNT(c) &#13;&#10;FROM CambioGrupo c &#13;&#10;WHERE c.solicitante = :solicitante &#13;&#10;ORDER BY fecha_registro DESC" returnType="java.lang.Long">
+                    <description>Versión de countForFindBySolicitante pero para consultas con orden por fecha descendente</description>
+                    <queryParameters>
+                        <queryParameter name="solicitante" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+                <query name="countForFindByUsuario_cambioSort" content="SELECT COUNT(c) &#13;&#10;FROM CambioGrupo c &#13;&#10;WHERE c.usuario_cambio = :usuario_cambio &#13;&#10;ORDER BY fecha_registro DESC" returnType="java.lang.Long">
+                    <description>Versión de countForFindByUsuario_cambio pero para consultas con orden por fecha descendente</description>
+                    <queryParameters>
+                        <queryParameter name="usuario_cambio" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+            </queries>
             <indexes/>
         </businessObject>
     </businessObjects>
